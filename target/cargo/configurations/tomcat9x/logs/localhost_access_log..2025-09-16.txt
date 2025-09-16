@@ -1,7 +1,10 @@
-127.0.0.1 - - [16/Sep/2025:15:47:18 +0200] "GET /cargocpc/index.html HTTP/1.1" 200 124
-127.0.0.1 - - [16/Sep/2025:15:47:41 +0200] "GET /jpetstore/actions/Account.action?signonForm= HTTP/1.1" 200 9966
-127.0.0.1 - - [16/Sep/2025:15:47:41 +0200] "GET /jpetstore/css/jpetstore-modern.css HTTP/1.1" 200 6980
-127.0.0.1 - - [16/Sep/2025:15:47:42 +0200] "GET /favicon.ico HTTP/1.1" 404 683
-127.0.0.1 - - [16/Sep/2025:15:47:44 +0200] "GET /jpetstore/actions/Catalog.action HTTP/1.1" 200 11938
-127.0.0.1 - - [16/Sep/2025:15:47:46 +0200] "GET /jpetstore/actions/Account.action?signonForm= HTTP/1.1" 200 9966
-127.0.0.1 - - [16/Sep/2025:15:47:59 +0200] "POST /jpetstore/actions/Account.action HTTP/1.1" 200 9798
+127.0.0.1 - - [16/Sep/2025:16:18:12 +0200] "GET /cargocpc/index.html HTTP/1.1" 200 124
+127.0.0.1 - - [16/Sep/2025:16:18:20 +0200] "GET /jpetstore/actions/Catalog.action HTTP/1.1" 200 11996
+127.0.0.1 - - [16/Sep/2025:16:18:20 +0200] "GET /jpetstore/css/jpetstore-modern.css HTTP/1.1" 200 6980
+127.0.0.1 - - [16/Sep/2025:16:18:20 +0200] "GET /jpetstore/images/fish1.gif HTTP/1.1" 200 12638
+127.0.0.1 - - [16/Sep/2025:16:18:20 +0200] "GET /jpetstore/images/snake1.gif HTTP/1.1" 200 13078
+127.0.0.1 - - [16/Sep/2025:16:18:20 +0200] "GET /jpetstore/images/bird2.gif HTTP/1.1" 200 11383
+127.0.0.1 - - [16/Sep/2025:16:18:20 +0200] "GET /jpetstore/images/dog2.gif HTTP/1.1" 200 12312
+127.0.0.1 - - [16/Sep/2025:16:18:20 +0200] "GET /jpetstore/images/splash.gif HTTP/1.1" 200 36097
+127.0.0.1 - - [16/Sep/2025:16:18:20 +0200] "GET /jpetstore/images/cat2.gif HTTP/1.1" 200 12703
+127.0.0.1 - - [16/Sep/2025:16:18:21 +0200] "GET /favicon.ico HTTP/1.1" 404 683

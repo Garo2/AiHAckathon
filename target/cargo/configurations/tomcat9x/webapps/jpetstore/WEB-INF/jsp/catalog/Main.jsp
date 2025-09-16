@@ -43,7 +43,7 @@
                                      beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
                                      event="viewCategory">
                             <stripes:param name="categoryId" value="FISH" />
-                            <img src="../images/fish_icon.gif" class="category-icon me-3" alt="Fish" />
+                            <img src="../images/fish1.gif" class="category-icon me-3" alt="Fish" />
                             <div>
                                 <h5 class="mb-1 text-info"><i class="fas fa-fish me-2"></i>Fish</h5>
                                 <p class="mb-0 text-muted">Saltwater & Freshwater varieties</p>
@@ -54,7 +54,7 @@
                                      beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
                                      event="viewCategory">
                             <stripes:param name="categoryId" value="DOGS" />
-                            <img src="../images/dogs_icon.gif" class="category-icon me-3" alt="Dogs" />
+                            <img src="../images/dog2.gif" class="category-icon me-3" alt="Dogs" />
                             <div>
                                 <h5 class="mb-1 text-warning"><i class="fas fa-dog me-2"></i>Dogs</h5>
                                 <p class="mb-0 text-muted">Various breeds & sizes</p>
@@ -65,7 +65,7 @@
                                      beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
                                      event="viewCategory">
                             <stripes:param name="categoryId" value="CATS" />
-                            <img src="../images/cats_icon.gif" class="category-icon me-3" alt="Cats" />
+                            <img src="../images/cat2.gif" class="category-icon me-3" alt="Cats" />
                             <div>
                                 <h5 class="mb-1 text-secondary"><i class="fas fa-cat me-2"></i>Cats</h5>
                                 <p class="mb-0 text-muted">Various breeds & exotic varieties</p>
@@ -76,7 +76,7 @@
                                      beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
                                      event="viewCategory">
                             <stripes:param name="categoryId" value="REPTILES" />
-                            <img src="../images/reptiles_icon.gif" class="category-icon me-3" alt="Reptiles" />
+                            <img src="../images/snake1.gif" class="category-icon me-3" alt="Reptiles" />
                             <div>
                                 <h5 class="mb-1 text-success"><i class="fas fa-dragon me-2"></i>Reptiles</h5>
                                 <p class="mb-0 text-muted">Lizards, turtles & snakes</p>
@@ -87,7 +87,7 @@
                                      beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
                                      event="viewCategory">
                             <stripes:param name="categoryId" value="BIRDS" />
-                            <img src="../images/birds_icon.gif" class="category-icon me-3" alt="Birds" />
+                            <img src="../images/bird2.gif" class="category-icon me-3" alt="Birds" />
                             <div>
                                 <h5 class="mb-1 text-primary"><i class="fas fa-dove me-2"></i>Birds</h5>
                                 <p class="mb-0 text-muted">Exotic & domestic varieties</p>
@@ -110,47 +110,42 @@
                          alt="Pet Store" style="max-width: 500px;" />
 
                     <!-- Interactive Overlay Buttons -->
-                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-wrap align-items-center justify-content-center">
-                        <stripes:link class="btn btn-primary btn-modern m-2 position-absolute"
-                                     style="top: 10%; left: 20%;"
-                                     beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
-                                     event="viewCategory">
-                            <stripes:param name="categoryId" value="BIRDS" />
-                            <i class="fas fa-dove me-1"></i>Birds
-                        </stripes:link>
-
-                        <stripes:link class="btn btn-info btn-modern m-2 position-absolute"
-                                     style="top: 60%; left: 10%;"
-                                     beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
-                                     event="viewCategory">
-                            <stripes:param name="categoryId" value="FISH" />
-                            <i class="fas fa-fish me-1"></i>Fish
-                        </stripes:link>
-
-                        <stripes:link class="btn btn-warning btn-modern m-2 position-absolute"
-                                     style="top: 70%; left: 30%;"
-                                     beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
-                                     event="viewCategory">
-                            <stripes:param name="categoryId" value="DOGS" />
-                            <i class="fas fa-dog me-1"></i>Dogs
-                        </stripes:link>
-
-                        <stripes:link class="btn btn-success btn-modern m-2 position-absolute"
-                                     style="top: 75%; right: 25%;"
-                                     beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
-                                     event="viewCategory">
-                            <stripes:param name="categoryId" value="REPTILES" />
-                            <i class="fas fa-dragon me-1"></i>Reptiles
-                        </stripes:link>
-
-                        <stripes:link class="btn btn-secondary btn-modern m-2 position-absolute"
-                                     style="top: 65%; right: 15%;"
-                                     beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
-                                     event="viewCategory">
-                            <stripes:param name="categoryId" value="CATS" />
-                            <i class="fas fa-cat me-1"></i>Cats
-                        </stripes:link>
-                    </div>
+					<div class="position-relative">
+						<div class="position-absolute top-50 start-50 translate-middle w-100 d-flex flex-wrap justify-content-center align-items-center" style="pointer-events: none;">
+							<div class="d-flex flex-wrap justify-content-center gap-3" style="pointer-events: auto;">
+								<stripes:link class="btn btn-primary btn-modern"
+											beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
+											event="viewCategory">
+									<stripes:param name="categoryId" value="BIRDS" />
+									<i class="fas fa-dove me-1"></i>Birds
+								</stripes:link>
+								<stripes:link class="btn btn-info btn-modern"
+											beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
+											event="viewCategory">
+									<stripes:param name="categoryId" value="FISH" />
+									<i class="fas fa-fish me-1"></i>Fish
+								</stripes:link>
+								<stripes:link class="btn btn-warning btn-modern"
+											beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
+											event="viewCategory">
+									<stripes:param name="categoryId" value="DOGS" />
+									<i class="fas fa-dog me-1"></i>Dogs
+								</stripes:link>
+								<stripes:link class="btn btn-success btn-modern"
+											beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
+											event="viewCategory">
+									<stripes:param name="categoryId" value="REPTILES" />
+									<i class="fas fa-dragon me-1"></i>Reptiles
+								</stripes:link>
+								<stripes:link class="btn btn-secondary btn-modern"
+											beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
+											event="viewCategory">
+									<stripes:param name="categoryId" value="CATS" />
+									<i class="fas fa-cat me-1"></i>Cats
+								</stripes:link>
+							</div>
+						</div>
+					</div>
                 </div>
 
                 <div class="mt-4">

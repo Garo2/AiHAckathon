@@ -85,6 +85,12 @@
                             <i class="fas fa-dove me-1"></i>Birds
                         </stripes:link>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="${pageContext.request.contextPath}/ai-agent.jsp">
+                            <i class="fas fa-robot me-1"></i>AI Agent
+                        </a>
+                    </li>
                 </ul>
 
                 <!-- Search Form -->

@@ -74,11 +74,12 @@
 
                         <!-- Login Button -->
                         <div class="d-grid mb-3">
-                            <stripes:submit name="signon"
-                                           class="btn btn-primary btn-modern btn-lg"
-                                           value="Sign In">
+                            <button type="submit"
+                                    name="signon"
+                                    class="btn btn-primary btn-modern btn-lg"
+                                    value="Sign In">
                                 <i class="fas fa-sign-in-alt me-2"></i>Sign In
-                            </stripes:submit>
+                            </button>
                         </div>
 
                     </stripes:form>
