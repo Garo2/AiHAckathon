@@ -87,7 +87,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="${pageContext.request.contextPath}/ai-agent.jsp">
+                        <a class="nav-link" href="Chat.jsp">
                             <i class="fas fa-robot me-1"></i>AI Agent
                         </a>
                     </li>
