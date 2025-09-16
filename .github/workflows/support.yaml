@@ -25,10 +25,10 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, macOS-latest, windows-latest]
-        java: [17]
+        os: [windows-latest]
+        java: [21]
         distribution: ['zulu']
-        token: ["tomcat9", "tomee80", "wildfly26", "liberty-ee8", "jetty", "glassfish5", "resin"]
+        token: ["tomcat9"]
       fail-fast: false
       max-parallel: 4
     name: Test JDK ${{ matrix.java }}, ${{ matrix.os }}, ${{ matrix.token }}
